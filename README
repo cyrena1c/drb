@@ -1,0 +1,91 @@
+The HOLIE BIBLE
+Faithfully Translated Into English, out of the Authentical Latin
+
+Diligently conferred with the Hebrew, Greeke, and other Editions in diuers
+languages.
+
+--------------------------------------------------------------------------
+
+A command line tool for reading and studying the Word of God from your
+terminal.  Douay--Rheims with Challoner revision.
+
+Inspired by
+- https://github.com/LukeSmithxyz/vul
+and 
+- https://github.com/bontibon/kjv
+but I decided to rewrite pretty much from scratch to include the notes and
+to make it look nicer especially on Termux/Android.
+
+Requires dos2unix, ed, groff, and tput.  Untested on non-GNU POSIX.
+
+--------------------------------------------------------------------------
+
+Text may contain errors.  Should you encounter one, feel free to open a
+pull request citing other source(s).
+
+Source:
+
+- https://www.gutenberg.org/cache/epub/1581/pg1581.txt
+- Check the version if you decide to fetch it yourself.
+
+    $ grep -A1 -i 'release date' pg1581.txt 
+    Release Date: January 11, 2011 [eBook #1581]
+    [Most recently updated: March 31, 2022]
+
+- Do not edit  pg1581.txt  directly.  Use the  edits.ed  file to make
+    changes.
+
+Some notes:-
+- Currently only shows one chapter at a time.
+- Do not expose this to a public network.  The scripts are not written
+    with security in mind.
+- Defaults to USCCB abbreviations---Gn not Gen.  Add your own aliases to
+    drb_aliases.txt .
+- 1Sm opens up "The First Book of Samuel (The First Book of Kings)"
+- 1Kgs opens up "The Third (First) Book of Kings"
+- Psalms are numbered according to LXX.
+- Book prefaces are still WIP.  Most of them will appear at the end of
+    the preceding book.
+
+Build:--
+
+    $ make lint   # requires shellcheck
+    $ make
+
+Usage:-
+
+    $ ./drb Gn
+    $ ./drb genesis
+    $ ./drb 2kgs 5
+    $ ./drb jn 3 16
+    $ ./drb Psalms 118 105
+
+--------------------------------------------------------------------------
+
+LICENSE
+
+    $ ./drb license
+
+The following files are in the public domain:-
+- drb.sh
+- drb_aliases.sh
+- edits.ed
+- Makefile
+- print_chapter.awk
+- README
+
+For the file  pg1581.txt  :
+
+  This eBook is for the use of anyone anywhere in the United States and
+  most other parts of the world at no cost and with almost no restrictions
+  whatsoever. You may copy it, give it away or re-use it under the terms
+  of the Project Gutenberg License included with this eBook or online at
+  www.gutenberg.org. If you are not located in the United States, you
+  will have to check the laws of the country where you are located before
+  using this eBook.
+
+  https://www.gutenberg.org/cache/epub/1581/pg1581.txt
+
+--------------------------------------------------------------------------
+
+Ad majórem Dei glóriam.

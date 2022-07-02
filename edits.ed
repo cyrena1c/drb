@@ -1,0 +1,21 @@
+H
+#
+# Normalize apostrophes
+%s/‘/'/g
+%s/’/'/g
+#
+# "Genesis Chapter 1" -> "%Genesis 1"
+%s/^\(.*\) Chapter \(\d*\)/%\1 \2/
+#
+# Move book preface under first chapter
+157,166m169
+5952,5960m5964
+10613,10619m10622
+# TODO do this for the remaining 70 books
+# or find a smarter way to do this.
+#
+# Add ending marker after Rev 22:21
+140320 a
+% End.
+.
+wq
