@@ -55,7 +55,7 @@ TEMPFILE="$(mktemp)"
 trap 'rm -rf "$TEMPFILE"; trap - EXIT; exit' EXIT INT HUP
 
 get_data drb.txt | \
-  awk -v lookup="^%$BOOK $CH\$" \
+  awk --posix -v lookup="^%$BOOK $CH\$" \
   -v title="$TITLE" \
   -v chapter="$CH" \
   -v flag="$FLAG" \

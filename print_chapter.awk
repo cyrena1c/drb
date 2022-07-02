@@ -10,8 +10,10 @@ $0~lookup {
   print ".hy 0"
   print ".ad c"
   print ".ft B"
+  gsub(/%/, "\n.br\n", title)
   print title
   print ".br"
+  print ""
   print ".ft"
   if (flag == "p") {
     printf("Psalm %s\n", chapter)
@@ -28,12 +30,14 @@ $0~lookup {
 
 keep_printing && !/^%/ {
   if (match($0, /^[0-9]+:[0-9]+\./)) {
+    # Match verse number
     a = substr($0, 1, RLENGTH)
     b = substr($0, RLENGTH + 2)
     match(a, /:/)
     a = substr(a, RSTART + 1)
     printf("\\fB~%s\\fP %s\n", a, b)
   } else if (match($0, /^.*\.\.\.+/)) {
+    # Match note
     a = substr($0, 1, RLENGTH - 2)
     b = substr($0, RLENGTH + 2)
     printf("\\fI%s\\fP %s\n", a, b)

@@ -6,14 +6,14 @@
 :Josue:joshua:jos:The Book of Josue
 :Judges:jgs:The Book of Judges
 :Ruth:ru:The Book of Ruth
-:1 Kings:1 Samuel:1sm:1 sm:The First Book of Samuel (The First Book of Kings)
-:2 Kings:2 Samuel:2sm:2 sm:The Second Book of Samuel (The Second Book of Kings)
+:1 Kings:1 Samuel:1sm:1 sm:The First Book of Samuel%(The First Book of Kings)
+:2 Kings:2 Samuel:2sm:2 sm:The Second Book of Samuel%(The Second Book of Kings)
 :3 Kings:1kgs:1 kgs:3kgs:3 kgs:The Third (First) Book of Kings
 :4 Kings:2kgs:2 kgs:4kgs:4 kgs:The Fourth (Second) Book of Kings
 :1 Paralipomenon:1 Chronicles:1chr:1 chr:The First Book of Paralipomenon
 :2 Paralipomenon:2 Chronicles:2chr:2 chr:The Second Book of Paralipomenon
-:1 Esdras:Ezra:ezr:The Book of Ezra (The First Book of Esdras)
-:2 Esdras:Nehemiah:neh:The Book of Nehemias (The Second Book of Esdras)
+:1 Esdras:Ezra:ezr:The Book of Ezra%(The First Book of Esdras)
+:2 Esdras:Nehemiah:neh:The Book of Nehemias%(The Second Book of Esdras)
 :Tobias:Tobit:tb:The Book of Tobias
 :Judith:jdt:The Book of Judith
 :Esther:est:The Book of Esther
@@ -25,7 +25,7 @@ p:Psalms:ps:The Book of Psalms
 :Ecclesiastes:eccl:Ecclesiastes
 :Canticle of Canticles:Song of Songs:sg:Solomon's Canticle of Canticles
 :Wisdom:wis:The Book of Wisdom
-:Ecclesiasticus:Ben Sira:Sirach:sir:The Wisdom of Sirach (Ecclesiasticus)
+:Ecclesiasticus:Ben Sira:Sirach:sir:The Wisdom of Sirach%(Ecclesiasticus)
 :Isaias:Isaiah:is:The Prophecy of Isaias
 :Jeremias:Jeremiah:jer:The Prophecy of Jeremias
 :Lamentations:lam:The Lamentations of Jeremias
@@ -44,30 +44,30 @@ sc:Abdias:Obadiah:ob:The Prophecy of Abdias
 :Aggeus:Haggai:hg:The Prophecy of Aggeus
 :Zacharias:Zechariah:zec:The Prophecy of Zacharias
 :Malachias:Malachi:mal:The Prophecy of Malachias
-g:Matthew:mt:The Holy Gospel of Jesus Christ according to St. Matthew
-g:Mark:mk:The Holy Gospel of Jesus Christ according to St. Mark
-g:Luke:lk:The Holy Gospel of Jesus Christ according to St. Luke
-g:John:jn:The Holy Gospel of Jesus Christ according to St. John
+g:Matthew:mt:The Holy Gospel of Jesus Christ%according to St. Matthew
+g:Mark:mk:The Holy Gospel of Jesus Christ%according to St. Mark
+g:Luke:lk:The Holy Gospel of Jesus Christ%according to St. Luke
+g:John:jn:The Holy Gospel of Jesus Christ%according to St. John
 g:Acts:The Acts of the Apostles
-:Romans:rom:The Epistle of St. Paul the Apostle to the Romans
-:1 Corinthians:1cor:1 cor:The First Epistle of St. Paul to the Corinthians
-:2 Corinthians:2cor:2 cor:The Second Epistle of St. Paul to the Corinthians
-:Galatians:gal:The Epistle of St. Paul to the Galatians
-:Ephesians:eph:The Epistle of St. Paul to the Ephesians
-:Philippians:phil:The Epistle of St. Paul to the Philippians
-:Colossians:col:The Epistle of St. Paul to the Colossians
-:1 Thessalonians:1thes:1 thes:The First Epistle of St. Paul to the Thessalonians
-:2 Thessalonians:2thes:2 thes:The Second Epistle of St. Paul to the Thessalonians
-:1 Timothy:1tm:1 tm:The First Epistle of St. Paul to Timothy
-:2 Timothy:2tm:2 tm:The Second Epistle of St. Paul to Timothy
-:Titus:ti:The Epistle of St. Paul to Titus
-:Philemon:phlm:The Epistle of St. Paul to Philemon
-:Hebrews:heb:The Epistle of St. Paul to the Hebrews
-:James:jas:The Catholic Epistle of St. James the Apostle
-:1 Peter:1pt:1 pt:The First Epistle of St. Peter the Apostle
-:2 Peter:2pt:2 pt:The Second Epistle of St. Peter the Apostle
-:1 John:1jn:1 jn:The First Epistle of St. John the Apostle
-:2 John:2jn:2 jn:The Second Epistle of St. John the Apostle
-:3 John:3jn:3 jn:The Third Epistle of St. John the Apostle
-sc:Jude:The Catholic Epistle of St. Jude the Apostle
-:Apocalypse:Revelation:rev:The Apocalypse of St. John the Apostle
+:Romans:rom:The Epistle of St. Paul the Apostle%to the Romans
+:1 Corinthians:1cor:1 cor:The First Epistle of St. Paul%to the Corinthians
+:2 Corinthians:2cor:2 cor:The Second Epistle of St. Paul%to the Corinthians
+:Galatians:gal:The Epistle of St. Paul%to the Galatians
+:Ephesians:eph:The Epistle of St. Paul%to the Ephesians
+:Philippians:phil:The Epistle of St. Paul%to the Philippians
+:Colossians:col:The Epistle of St. Paul%to the Colossians
+:1 Thessalonians:1thes:1 thes:The First Epistle of St. Paul%to the Thessalonians
+:2 Thessalonians:2thes:2 thes:The Second Epistle of St. Paul%to the Thessalonians
+:1 Timothy:1tm:1 tm:The First Epistle of St. Paul%to Timothy
+:2 Timothy:2tm:2 tm:The Second Epistle of St. Paul%to Timothy
+:Titus:ti:The Epistle of St. Paul%to Titus
+:Philemon:phlm:The Epistle of St. Paul%to Philemon
+:Hebrews:heb:The Epistle of St. Paul%to the Hebrews
+:James:jas:The Catholic Epistle%of St. James the Apostle
+:1 Peter:1pt:1 pt:The First Epistle%of St. Peter the Apostle
+:2 Peter:2pt:2 pt:The Second Epistle%of St. Peter the Apostle
+:1 John:1jn:1 jn:The First Epistle%of St. John the Apostle
+:2 John:2jn:2 jn:The Second Epistle%of St. John the Apostle
+:3 John:3jn:3 jn:The Third Epistle%of St. John the Apostle
+sc:Jude:The Catholic Epistle%of St. Jude the Apostle
+:Apocalypse:Revelation:rev:The Apocalypse%of St. John the Apostle
