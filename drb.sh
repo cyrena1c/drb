@@ -50,7 +50,8 @@ else
 fi
   
 # Render into temporary file
-TEMPFILE=$(mktemp)
+WIDTH="$(tput cols)"
+TEMPFILE="$(mktemp)"
 trap 'rm -rf "$TEMPFILE"; trap - EXIT; exit' EXIT INT HUP
 
 get_data drb.txt | \
@@ -58,7 +59,7 @@ get_data drb.txt | \
   -v title="$TITLE" \
   -v chapter="$CH" \
   -v flag="$FLAG" \
-  -v width="$(tput cols 2> /dev/null)" \
+  -v width="$WIDTH" \
   "$(get_data print_chapter.awk)" | \
   groff -Tutf8 2> /dev/null \
   > "$TEMPFILE"

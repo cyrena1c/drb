@@ -49,7 +49,7 @@ Some notes:-
 
 Build:--
 
-    $ make lint   # requires shellcheck
+    $ make lint   # optional, requires shellcheck
     $ make
 
 Usage:-
